@@ -14,8 +14,8 @@ int main() {
 	z2.im = 8;
 
 	//Teste Construtor
-	Teste.Complexo(0, 0);
-	if ( Teste.real == 0 && Teste.im == 0) {
+	Teste.Complexo(42, 24);
+	if ( Teste.real == 42 && Teste.im == 24) {
 		printf("Construtor OK");
 	}
 	else {
