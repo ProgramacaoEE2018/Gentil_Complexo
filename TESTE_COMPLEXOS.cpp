@@ -35,7 +35,7 @@ int main() {
 		}
 
 		//Teste Conjugado
-		modulo = (z1.Conjugado - conjugado).Modulo();
+		modulo = (z1.Conjugado() - conjugado).Modulo();
 		if (modulo == 0) {
 			printf("Conjugado OK\n");
 		}
