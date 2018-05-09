@@ -17,7 +17,7 @@ int main() {
 		printf("Modulo OK\n");
 		
 		//Teste Diferenca
-		modulo = (z1 - z2).Modulo()
+		modulo = (z1 - z2).Modulo();
 			if (modulo == 0) {
 				printf("Diferenca OK\n");
 			}
@@ -26,7 +26,7 @@ int main() {
 			}
 		
 		//Teste Divisao
-		modulo = ((z1 / z2) - divisao).Modulo;
+		modulo = ((z1 / z2) - divisao).Modulo();
 		if (modulo == 0) {
 			printf("Divisao OK\n");
 		}
@@ -35,7 +35,7 @@ int main() {
 		}
 
 		//Teste Conjugado
-		modulo = (z1.Conjugado - conjugado).Modulo;
+		modulo = (z1.Conjugado - conjugado).Modulo();
 		if (modulo == 0) {
 			printf("Conjugado OK\n");
 		}
@@ -44,7 +44,7 @@ int main() {
 		}
 
 		//Teste Produto
-		modulo = ((z1 * z2) - produto).Modulo;
+		modulo = ((z1 * z2) - produto).Modulo();
 		if (modulo == 0) {
 			printf("produto OK\n");
 		}
@@ -53,7 +53,7 @@ int main() {
 		}
 
 		//Teste Soma
-		modulo = ((z1 + z2) - soma).Modulo;
+		modulo = ((z1 + z2) - soma).Modulo();
 		if (modulo == 0) {
 			printf("Soma OK\n");
 		}
